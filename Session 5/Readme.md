@@ -10,7 +10,7 @@ Taken from S5 - file 1
 2. Less than or equal to 15 Epochs **Pending**   
 3. Less than 10000 Parameters **Pending**  
 
-**Achieved :**  
+**Achieved :**  ConvShape+Codestructure+Basic observations
 
 1. Get the set-up right **Done**  
 2. Set Transforms **Done**  
@@ -23,7 +23,7 @@ Taken from S5 - file 1
 **Results :**  
 
 1. Test Accuracy : **98.94%**  
-2. Epochs : **15**  
+2. Epochs : **20**  
 3. Parameters : **194,884**  
 
 **Analysis :**  
