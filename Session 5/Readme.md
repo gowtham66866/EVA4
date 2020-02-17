@@ -7,7 +7,7 @@ Taken from S5 - file 1
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
-2. Less than or equal to 15 Epochs **Done** (just set the epochs to 15)  
+2. Less than or equal to 15 Epochs **Pending**   
 3. Less than 10000 Parameters **Pending**  
 
 **Achieved :**  
@@ -28,6 +28,7 @@ Taken from S5 - file 1
 
 **Analysis :**  
 
-1.  
-2.
-3.
+1.  In the Initial Epochs, the Test acuuracy is very high compared to train accuracy - which means the model is doing quite good even at lower epochs - it might be picking up the right features early on  
+2. It can be observed that the training accuracy kept on increasing through out all the epochs - which means the model is doing what it is supposed to do. 
+3. But the Test accuracy dips after some epochs - which mean that the model might be overfitting after all  
+4. 
