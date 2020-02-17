@@ -61,6 +61,8 @@ Taken from S5 - file 1
 1. Test Accuracy : **98.94%**  
 2. Epochs : **15**  
 3. Parameters : **194,884**  
+4. Best Train Accuracy : **99.52**  
+5. Best Test Accuracy : **99.20**  
 
 **Analysis :**  
 
