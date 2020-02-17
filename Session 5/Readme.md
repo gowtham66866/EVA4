@@ -31,7 +31,9 @@ Taken from S5 - file 1
 1.  In the Initial Epochs, the Test acuuracy is very high compared to train accuracy - which means the model is doing quite good even at lower epochs - it might be picking up the right features early on  
 2. It can be observed that the training accuracy kept on increasing through out all the epochs - which means the model is doing what it is supposed to do. 
 3. But the Test accuracy dips after some epochs - which mean that the model might be overfitting after all  
-4. 
+4. The Dip in the test accuracy can be observed after multiple epochs in the logs  
+5. Any kind of regularization can be helpfulto us in this scenario  
+6. Personally, I would be happy of i do not see any kinks in the Test accuracy graph - that is accuracy keeps increasing  
 
 
 ## EVA_S5_F2.ipynb
