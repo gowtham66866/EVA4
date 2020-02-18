@@ -22,9 +22,9 @@ Taken from S5 - file 1
 
 **Results :**  
 
-1. Test Accuracy : **98.94%**  
+1. Test Accuracy : **98.82%**  
 2. Epochs : **20**  
-3. Parameters : **194,884**  
+3. Parameters : **16,190**  
 
 **Analysis :**  
 
@@ -32,7 +32,7 @@ Taken from S5 - file 1
 2. It can be observed that the training accuracy kept on increasing through out all the epochs - which means the model is doing what it is supposed to do. 
 3. But the Test accuracy dips after some epochs - which mean that the model might be overfitting after all  
 4. The Dip in the test accuracy can be observed after multiple epochs in the logs  
-5. Any kind of regularization can be helpfulto us in this scenario  
+5. Any kind of regularization can be helpful to us in this scenario  
 6. Personally, I would be happy of i do not see any kinks in the Test accuracy graph - that is accuracy keeps increasing  
 
 
