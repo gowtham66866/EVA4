@@ -7,7 +7,6 @@ Taken from S5 - file 1
    
 **Target :**  
 
-**Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
 2. Less than or equal to 15 Epochs **Pending**   
 3. Less than 10000 Parameters **Pending**  
@@ -44,8 +43,6 @@ Taken from S5 - file 1
 
 **Basic Code + Network Structure + less channels + GAP**  
 
-**Target :**  
-
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
 2. Less than or equal to 15 Epochs **Pending**   
@@ -72,8 +69,6 @@ Taken from S5 - file 1
 ## EVA_S5_F3.ipynb
 
 **Basic Code + Network Structure + Less channels + GAP + BN**  
-
-**Target :**  
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
@@ -104,8 +99,6 @@ Taken from S5 - file 1
 ## EVA_S5_F4.ipynb
 
 **Basic Code + Network Structure + Less channels + GAP + BN + Dropout**  
-   
-**Target :**  
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
@@ -137,8 +130,6 @@ Taken from S5 - file 1
 
 ## EVA_S5_F5.ipynb
 Taken from S5 - file 1
-   
-**Target :**  
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
@@ -161,7 +152,6 @@ Taken from S5 - file 1
 2. Parameters : **9,710**  
 3. Best Train Accuracy : **99.21**  
 4. Best Test Accuracy : **99.47**  
-
 
 **Analysis :**  
 
