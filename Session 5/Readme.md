@@ -129,7 +129,8 @@ Taken from S5 - file 1
 4. The reason for Image Augumentation is that we need to learn better, there might be some scenarious we are missing from the test dataset  
 
 ## EVA_S5_F5.ipynb
-Taken from S5 - file 1
+
+**Basic Code + Network Structure + Less channels + GAP + BN + Dropout**  
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
