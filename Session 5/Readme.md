@@ -153,17 +153,19 @@ Taken from S5 - file 1
 4. Added BN in each layer  
 5. BN is done before the activation  
 6. Dropout is done after the activation  
-7. RF >> image size in this scenario
+7. RF >> image size in this scenario (final RF = 34)
 
 **Results :**  
 
 1. Epochs : **20**  
-2. Parameters : **8,910**  
-3. Best Train Accuracy : **98.92**  
-4. Best Test Accuracy : **99.31**  
+2. Parameters : **9,710**  
+3. Best Train Accuracy : **99.19**  
+4. Best Test Accuracy : **99.49**  
 
 
 **Analysis :**  
 
-1.  The training can be pushed further to achieve the 99.4% in test accuracy. 
-2.
+1. The training can be pushed further to achieve the 99.4% in test accuracy. 
+2. The model when pushed to 20 epochs is giving this result. 
+3. May be with more data augumentatioon statrgies, thic can be achieved even before 15 epochs.  
+
