@@ -120,6 +120,7 @@ Taken from S5 - file 1
 4. Added BN in each layer  
 5. BN is done before the activation  
 6. Dropout is done after the activation  
+
 **Results :**  
 
 1. Epochs : **25**  
@@ -142,27 +143,27 @@ Taken from S5 - file 1
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
 2. Less than or equal to 15 Epochs **Pending**   
-3. Less than 10000 Parameters **Pending**  
+3. Less than 10000 Parameters **Done**  
 
 **Achieved :**  
 
-1. Get the set-up right **Done**  
-2. Set Transforms **Done**  
-3. Set Data Loader **Done**  
-4. Set Basic Working Code **Done**  
-5. Set Basic Training  & Test Loop **Done**  
-6. Experiemnt with the code **Done**  
-7. Rewrite the convolutions in meaningful way **Done**  
+1. Less than 10000 Parameters   
+2. Decreased the number of channels   
+3. Added GAP layer  
+4. Added BN in each layer  
+5. BN is done before the activation  
+6. Dropout is done after the activation  
+7. RF >> image size in this scenario
 
 **Results :**  
 
-1. Test Accuracy : **98.94%**  
-2. Epochs : **15**  
-3. Parameters : **194,884**  
+1. Epochs : **20**  
+2. Parameters : **8,910**  
+3. Best Train Accuracy : **98.92**  
+4. Best Test Accuracy : **99.31**  
+
 
 **Analysis :**  
 
-1.  In the Initial Epochs, the Test acuuracy is very high compared to train accuracy - which means the model is doing quite good even at lower epochs - it might be picking up the right features early on  
-2. It can be observed that the training accuracy kept on increasing through out all the epochs - which means the model is doing what it is supposed to do. 
-3. But the Test accuracy dips after some epochs - which mean that the model might be overfitting after all  
-4. 
+1.  The training can be pushed further to achieve the 99.4% in test accuracy. 
+2.
