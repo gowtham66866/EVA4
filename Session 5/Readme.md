@@ -159,8 +159,8 @@ Taken from S5 - file 1
 
 1. Epochs : **20**  
 2. Parameters : **9,710**  
-3. Best Train Accuracy : **99.19**  
-4. Best Test Accuracy : **99.49**  
+3. Best Train Accuracy : **99.21**  
+4. Best Test Accuracy : **99.47**  
 
 
 **Analysis :**  
@@ -168,4 +168,3 @@ Taken from S5 - file 1
 1. The training can be pushed further to achieve the 99.4% in test accuracy. 
 2. The model when pushed to 20 epochs is giving this result. 
 3. May be with more data augumentatioon statrgies, thic can be achieved even before 15 epochs.  
-
