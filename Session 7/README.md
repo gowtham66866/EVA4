@@ -4,8 +4,8 @@
 
 -------Net summary------   
 input image:     
-	 n features: 32   
- 	 jump: 1    
+	n features: 32   
+	jump: 1    
  	 receptive size: 1    
  	 start: 0.5    
 conv1:   
