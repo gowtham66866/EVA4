@@ -15,6 +15,7 @@
 5. One of the layers must use Dilated Convolution  - **Done**  
 6. Use GAP (compulsory):- add FC after GAP to target #of classes (optional) - **Done**  
 7. Achieve 80% accuracy, as many epochs as you want. Total Params to be less than 1M - **Done**   
+8. All the code is split and individual modules are called upon for execution - **Done**    
 
 ## Receptive Field Calculations 
 
@@ -24,7 +25,9 @@
 	+ jump: 1    
 	+ receptive size: 1    
 	+ start: 0.5    
+
 **Convolution Block - 1**
+
 * conv1:   
 	+ n features: 30    
 	+ jump: 1    
@@ -40,7 +43,9 @@
 	+ jump: 1    
 	+ receptive size: 5    
 	+ start: -5.5    
+
 **Transition Block - 1**	
+
 * MP1:   
 	+ n features: 22    
 	+ jump: 2    
@@ -51,7 +56,9 @@
 	+ jump: 2    
 	+ receptive size: 6    
 	+ start: -5.0    
+
 **Convolution Block - 2**	
+
 * conv5:
 	+ n features: 22    
 	+ jump: 2    
@@ -67,7 +74,9 @@
 	+ jump: 2    
 	+ receptive size: 30    
 	+ start: -5.0    
+
 **Transition Block - 2**		
+
 * MP2:   
 	+ n features: 11    
 	+ jump: 4    
@@ -78,7 +87,9 @@
 	+ jump: 4    
 	+ receptive size: 32    
 	+ start: -4.0    
+
 **Convolution Block - 3**	
+
 * conv9:   
 	+ n features: 11    
 	+ jump: 4    
@@ -94,7 +105,9 @@
 	+ jump: 36    
 	+ receptive size: 96    
 	+ start: 16.0   
+
 **Convolution Block - 4**	
+
 * conv11:   
 	+ n features: 1    
 	+ jump: 36    
@@ -110,7 +123,12 @@ The following image gives an idea of which model seems to achieve the best Valid
 Best Model based on Accuracy : **Model with L2 regularization**  
 Model Parameters : **160,384**  
 Receptive Field : 96  
-No of Blocks : 4 Conv blocks, 2 Transition blocks  
+No of Blocks : 4 Convolution blocks, 2 Transition blocks, 1 GAP block  
+
+**In L2 **:  
+
+Best Train Accuracy : 83.50%  
+Best Test Accuracy : 81.49%  
 
 ## Result Visualizations
 
@@ -121,5 +139,5 @@ No of Blocks : 4 Conv blocks, 2 Transition blocks
 ![Validation Loss](./images/Validation_Loss.png)
 
 # 25 misclassified images for L2  
-![L1 misclassified](./images/Val_L2_Misclassification.png)
+![L2 misclassified](./images/Val_L2_Misclassification.png)
 
