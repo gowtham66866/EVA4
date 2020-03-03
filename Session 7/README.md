@@ -2,7 +2,7 @@
 
 ## Index :  
 1. [Target](#target)  
-2. [Receptive Field Calculations](#receptivefieldcalculations)
+2. [Receptive Field Calculations](#receptive-field-calculations)
 
 
 ## Target :  
