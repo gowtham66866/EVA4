@@ -1,6 +1,9 @@
 # CIFAR 10 : Classification
 
-[Target](#Target)
+## Index :  
+1. [Target](#target)  
+2. [Receptive Field Calculations](#receptivefieldcalculations)
+
 
 ## Target :  
 1. Code uses GPU - **Done**  
@@ -11,7 +14,7 @@
 6. Use GAP (compulsory):- add FC after GAP to target #of classes (optional) - **Done**  
 7. Achieve 80% accuracy, as many epochs as you want. Total Params to be less than 1M - **Done**   
 
-## Receptive Field calculations :
+## Receptive Field Calculations :
 
 -------Net summary------   
 * input image:     
