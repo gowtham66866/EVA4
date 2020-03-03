@@ -132,12 +132,12 @@ Best Test Accuracy : 81.49%
 
 ## Result Visualizations
 
-# Validation Accuracy   
+### Validation Accuracy   
 ![Validation Accuracy](./images/Validation_Accuracy.png)
 
-# Validation Loss  
+### Validation Loss  
 ![Validation Loss](./images/Validation_Loss.png)
 
-# 25 misclassified images for L2  
+### 25 misclassified images for L2  
 ![L2 misclassified](./images/Val_L2_Misclassification.png)
 
