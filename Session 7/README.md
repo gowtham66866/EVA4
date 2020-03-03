@@ -1,13 +1,13 @@
 # CIFAR 10 : Classification
 
 ## Index  
-1. [Target](#target)  
+1. [Objective](#objective)  
+2. [Model Summary](#model-summary)
 2. [Receptive Field Calculations](#receptive-field-calculations)
 3. [Result Summary](#result-summary)
-4. [Result Visualizations](#result-visualizations)
+4. [Result Visualizations](#result-visualizations) (misclassification/accuracy/loss)
 
-
-## Target   
+## Objective   
 1. Code uses GPU - **Done**  
 2. Use the architecture to C1,C2,C3,C4,O (basically 3 MPs) - **Done**  
 3. Total RF must be more than 44 - **Done(RF = 96)**  
@@ -16,6 +16,10 @@
 6. Use GAP (compulsory):- add FC after GAP to target #of classes (optional) - **Done**  
 7. Achieve 80% accuracy, as many epochs as you want. Total Params to be less than 1M - **Done**   
 8. All the code is split and individual modules are called upon for execution - **Done**    
+
+## Model Summary  
+
+![Model Summary](./images/Model_Summary.png)
 
 ## Receptive Field Calculations 
 
@@ -127,7 +131,7 @@ Model Parameters : **160,384**
 Receptive Field : 96  
 No of Blocks : 4 Convolution blocks, 2 Transition blocks, 1 GAP block  
 
-**In L2 **:  
+**In Best Model with L2 :**   
 
 Best Train Accuracy : 83.50%  
 Best Test Accuracy : 81.49%  
