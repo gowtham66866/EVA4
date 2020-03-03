@@ -3,36 +3,36 @@
 ## Receptive Field calculations :
 
 -------Net summary------
-input image:
-	 n features: 32 
- 	 jump: 1 
- 	 receptive size: 1 
- 	 start: 0.5 
-conv1:
-	 n features: 30 
- 	 jump: 1 
- 	 receptive size: 3 
- 	 start: 1.5 
-conv2:
-	 n features: 36 
- 	 jump: 1 
- 	 receptive size: 5 
- 	 start: -1.5 
-conv3:
-	 n features: 44 
- 	 jump: 1 
- 	 receptive size: 5 
- 	 start: -5.5 
-MP1:
-	 n features: 22 
- 	 jump: 2 
- 	 receptive size: 6 
- 	 start: -5.0 
-conv4:
-	 n features: 22 
- 	 jump: 2 
- 	 receptive size: 6 
- 	 start: -5.0 
+input image:  
+	 n features: 32   
+ 	 jump: 1    
+ 	 receptive size: 1    
+ 	 start: 0.5    
+conv1:   
+	 n features: 30    
+ 	 jump: 1    
+ 	 receptive size: 3    
+ 	 start: 1.5    
+conv2:   
+	 n features: 36    
+ 	 jump: 1    
+ 	 receptive size: 5    
+ 	 start: -1.5    
+conv3:   
+	 n features: 44    
+ 	 jump: 1    
+ 	 receptive size: 5    
+ 	 start: -5.5    
+MP1:   
+	 n features: 22    
+ 	 jump: 2    
+ 	 receptive size: 6    
+ 	 start: -5.0    
+conv4:   
+	 n features: 22    
+ 	 jump: 2    
+ 	 receptive size: 6    
+ 	 start: -5.0    
 conv5:
 	 n features: 22 
  	 jump: 2 
