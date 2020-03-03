@@ -98,15 +98,15 @@
 
 ## Result Summary
 
+The following image gives an idea of which model seems to achieve the best Validation Accuracy.  
+Best Model based on Accuracy : **Model with L2 regularization**
+
 # Validation Accuracy   
-![Validation Accuracy](./Test_Accuracy.png)
+![Validation Accuracy](./images/Validation_Accuracy.png)
 
 # Validation Loss  
-![Validation Loss](./Test_Loss.png)
-
-# 25 misclassified images for L1  
-![L1 misclassified](./L1_Test.png)
+![Validation Loss](/images/Validation_Loss.png)
 
 # 25 misclassified images for L2  
-![L1 misclassified](./L2_Test.png)
+![L1 misclassified](./images/Val_L2_Misclassification.png)
 
