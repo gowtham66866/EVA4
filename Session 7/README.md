@@ -144,6 +144,6 @@ Best Test Accuracy : 81.49%
 ### Validation Loss  
 ![Validation Loss](./images/Validation_Loss.png)
 
-### 25 misclassified images for L2  
+### 25 misclassified images for L2 : Best Model  
 ![L2 misclassified](./images/Val_L2_Misclassification.png)
 
