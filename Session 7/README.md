@@ -20,19 +20,21 @@
 ## Receptive Field Calculations 
 
 -------Net summary------   
+
+**Input Block**  
 * input image:     
 	+ n features: 32   
 	+ jump: 1    
 	+ receptive size: 1    
 	+ start: 0.5    
-
-**Convolution Block - 1**
-
 * conv1:   
 	+ n features: 30    
 	+ jump: 1    
 	+ receptive size: 3    
 	+ start: 1.5    
+	
+**Convolution Block - 1**  : Depthwise Separable layer  
+
 * conv2:   
 	+ n features: 36    
 	+ jump: 1    
@@ -57,7 +59,7 @@
 	+ receptive size: 6    
 	+ start: -5.0    
 
-**Convolution Block - 2**	
+**Convolution Block - 2** : Dilated layer  	
 
 * conv5:
 	+ n features: 22    
@@ -88,7 +90,7 @@
 	+ receptive size: 32    
 	+ start: -4.0    
 
-**Convolution Block - 3**	
+**Convolution Block - 3** : Dilated layer  	
 
 * conv9:   
 	+ n features: 11    
