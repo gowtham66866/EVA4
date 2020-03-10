@@ -32,11 +32,11 @@ The following image gives an idea of which model seems to achieve the best Valid
 ## Result Visualizations
 
 ### Validation Accuracy   
-![Validation Accuracy](./images/Validation_Accuracy.png)
+![Validation Accuracy](./images/Test_Accuracy.png)
 
 ### Validation Loss  
-![Validation Loss](./images/Validation_Loss.png)
+![Validation Loss](./images/Test_Loss.png)
 
 ### 25 misclassified images for L2 : Best Model  
-![L2 misclassified](./images/Val_L2_Misclassification.png)
+![L2 misclassified](./images/L2_Test_Misclassification.png)
 
