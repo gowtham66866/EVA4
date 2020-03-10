@@ -1,5 +1,5 @@
 
-# CIFAR 10 : Classification using RESNET18
+# CIFAR 10 : Classification using ResNet18
 
 ## Index  
 1. [Objective](#objective)  
