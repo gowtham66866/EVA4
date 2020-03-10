@@ -9,7 +9,7 @@
 
 ## Objective   
 1. Code uses GPU - **Done**  
-2. Use the architecture to RESNET18 - **Done**  
+2. Use the RESNET18 architecture - **Done**  
 3. Achieve 85% accuracy, with no limit on no of parameters - **Done**   
 4. All the code is split and individual modules are called upon for execution - **Done**    
 
