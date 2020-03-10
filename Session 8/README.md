@@ -22,12 +22,12 @@
 The following image gives an idea of which model seems to achieve the best Validation Accuracy.
 
 
-| Model | Train Accuracy | Test Accuracy |
-| --- | --- | --- |
-| ResNet18 - Normal | 98.98 | 88.42 |
-| ResNet18 - L1 | 82.61| 81.08 |
-| ResNet18 - L2 | 98.85 | 88.70 |
-| ResNet18 - ElastiNet | 82.60 | 81.31 |
+| Model | Train Accuracy | Test Accuracy | Epochs | Comments |
+| --- | --- | --- | --- | --- |
+| ResNet18 - Normal | **98.98** | **88.42** | 20 | Although objective is achieved, it seems to be overfit |
+| ResNet18 - L1 | 82.61| 81.08 | 20 | Objective is not achieved, but seems like a good model, more epochs could meet the criterion |
+| ResNet18 - L2 | **98.85** | **88.70** | 20 | Although objective is achieved, it seems to be overfit |
+| ResNet18 - ElastiNet | 82.60 | 81.31 | 20 | Objective is not achieved, but seems like a good model, more epochs could meet the criterion |
 
 ## Result Visualizations
 
