@@ -24,8 +24,10 @@ The following image gives an idea of which model seems to achieve the best Valid
 
 | Model | Train Accuracy | Test Accuracy |
 | --- | --- | --- |
-| Normal ResNet18 | 98.98 |  |
-| git diff | Show file differences that haven't been staged | 
+| ResNet18 - Normal | 98.98 | 88.42 |
+| ResNet18 - L1 | 82.61| 81.08 |
+| ResNet18 - L2 | 98.85 | 88.70 |
+| ResNet18 - ElastiNet | 82.60 | 81.31 |
 
 ## Result Visualizations
 
