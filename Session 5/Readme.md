@@ -56,15 +56,16 @@ Taken from S5 - file 1
 
 **Results :**  
 
-1. Epochs : **25**  
+1. Epochs : **15**  
 2. Parameters : **8,946**  
-3. Best Train Accuracy : **99.17**  
-4. Best Test Accuracy : **99.20**  
+3. Best Train Accuracy : **98.62**  
+4. Best Test Accuracy : **98.54**  
 
 **Analysis :**  
 
 1. Model keeps learning and can be pushed further, but it might start to overfit  
 2. It might be beneficial to use a BN at this point to boost the network performance in lesser epochs
+3. Model seems to not learn much in the initial 3 epochs, which must be tweaked with some dropout or BN. But this is a point of concern.  
 
 ## EVA_S5_F3.ipynb
 
@@ -72,7 +73,7 @@ Taken from S5 - file 1
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
-2. Less than or equal to 15 Epochs **Pending**   
+2. Less than or equal to 15 Epochs **Done**   
 3. Less than 10000 Parameters **Done**  
 
 **Achieved :**  
@@ -85,10 +86,10 @@ Taken from S5 - file 1
 
 **Results :**  
 
-1. Epochs : **25**  
+1. Epochs : **15**  
 2. Parameters : **9,138**  
-3. Best Train Accuracy : **99.71**  
-4. Best Test Accuracy : **99.37**  
+3. Best Train Accuracy : **99.52**  
+4. Best Test Accuracy : **99.26**  
 
 **Analysis :**  
 
@@ -102,7 +103,7 @@ Taken from S5 - file 1
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
-2. Less than or equal to 15 Epochs **Pending**   
+2. Less than or equal to 15 Epochs **Done**   
 3. Less than 10000 Parameters **Done**  
 
 **Achieved :**  
@@ -116,14 +117,14 @@ Taken from S5 - file 1
 
 **Results :**  
 
-1. Epochs : **25**  
+1. Epochs : **15**  
 2. Parameters : **8,946**  
-3. Best Train Accuracy : **99.06**  
-4. Best Test Accuracy : **99.45**  
+3. Best Train Accuracy : **98.76**  
+4. Best Test Accuracy : **99.16**  
 
 **Analysis :**  
 
-1. Dropout seems to be working as even after 25 epochs, the model can be pushed further  
+1. Dropout seems to be working as even after 15 epochs, the model can be pushed further  
 2. There is still room in training to push the model  
 3. At this point, we can either use Image augumentation/ LR scheduler, going with image Augumentation  
 4. The reason for Image Augumentation is that we need to learn better, there might be some scenarious we are missing from the test dataset  
@@ -134,7 +135,7 @@ Taken from S5 - file 1
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
-2. Less than or equal to 15 Epochs **Pending**   
+2. Less than or equal to 15 Epochs **Done**   
 3. Less than 10000 Parameters **Done**  
 
 **Achieved :**  
@@ -149,13 +150,13 @@ Taken from S5 - file 1
 
 **Results :**  
 
-1. Epochs : **20**  
+1. Epochs : **15**  
 2. Parameters : **9,710**  
-3. Best Train Accuracy : **99.21**  
-4. Best Test Accuracy : **99.47**  
+3. Best Train Accuracy : **98.37**  
+4. Best Test Accuracy : **99.25**  
 
 **Analysis :**  
 
 1. The training can be pushed further to achieve the 99.4% in test accuracy. 
-2. The model when pushed to 20 epochs is giving this result. 
-3. May be with more data augumentatioon statrgies, thic can be achieved even before 15 epochs.  
+2. The model when pushed to > 15 epochs gives promising results.  
+3. Accuracy improved to more than 97% in the initial epochs itself.  
