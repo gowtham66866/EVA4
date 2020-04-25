@@ -8,7 +8,7 @@ Taken from S5 - file 1
 **Target :**  
 
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
-2. Less than or equal to 15 Epochs **Pending**   
+2. Less than or equal to 15 Epochs **Done**   
 3. Less than 10000 Parameters **Pending**  
 
 **Achieved :**  ConvShape+Codestructure+Basic observations
@@ -23,8 +23,8 @@ Taken from S5 - file 1
 
 **Results :**  
 
-1. Epochs : **20**  
-2. Parameters : **16,190**  
+1. Epochs : **15**  
+2. Parameters : **13,230**  
 3. Best Train Accuracy : **99.27%**  
 4. Best Test Accuracy : **98.82%**  
 
