@@ -24,9 +24,9 @@ Taken from S5 - file 1
 **Results :**  
 
 1. Epochs : **15**  
-2. Parameters : **13,230**  
-3. Best Train Accuracy : **99.27%**  
-4. Best Test Accuracy : **98.82%**  
+2. Parameters : **16,190**  
+3. Best Train Accuracy : **96.62%**  
+4. Best Test Accuracy : **98.86%**  
 
 **Analysis :**  
 
@@ -45,7 +45,7 @@ Taken from S5 - file 1
 
 **Aim :**  
 1. 99.4% (this must be consistently shown in your last few epochs, and not a one-time achievement) **Pending**
-2. Less than or equal to 15 Epochs **Pending**   
+2. Less than or equal to 15 Epochs **Done**   
 3. Less than 10000 Parameters **Done**  
 
 **Achieved :**  
